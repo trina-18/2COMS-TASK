@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    background-color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.navbar-brand{
+    margin: 10px;
+}
+.navbar-right-ele{
+    text-transform: uppercase;
+    color: rgb(254, 254, 254);
+    margin-left: 26px;
+    letter-spacing: 1px;
+}
+.navbar-nav{
+    margin: 10px 20px;
+}
+
+.card-header{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-bottom: none !important;
+}
+.card{
+    width: 55%;
+    margin: auto;
+    box-shadow: 1px 1px 20px 2px rgba(174, 174, 174, 0.333) !important;
+}
+.form-outline input{
+    border-radius: 0% !important;
+}
+
+#reg{
+    background-color: rgb(255, 47, 0);
+    color: white;
+}
+#reg:hover{
+    transform: scale(1.02);
+    transition: 0.2s;
+}
+
